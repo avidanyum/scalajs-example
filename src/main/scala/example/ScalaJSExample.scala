@@ -1,5 +1,6 @@
 package example
 
+import scala.scalajs.js.Object
 import scala.scalajs.js.annotation.JSExport
 import org.scalajs.dom
 import org.scalajs.dom.html
@@ -16,15 +17,19 @@ case class Point(x: Int, y: Int){
 
 @JSExport
 object ScalaJSExample {
+
   @JSExport
   def main(canvas: html.Canvas): Unit = {
     val ctx = canvas.getContext("2d")
-                    .asInstanceOf[dom.CanvasRenderingContext2D]
+      .asInstanceOf[dom.CanvasRenderingContext2D]
 
     val Funnel = js.Dynamic.global.require("d3-funnel")
-    val chart = js.Dynamic.newInstance(Funnel)("#funnel")
+    val chart = js.Dynamic.newInstance(Funnel)("#funnel").asInstanceOf[Funnel]
 
+    val data = js.Array(js.Array("Plants", 5000))
+    val options = new Object()
 
+    chart.draw(data, options)
 
     var count = 0
     var p = Point(0, 0)

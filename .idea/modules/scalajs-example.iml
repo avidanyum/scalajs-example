@@ -21,8 +21,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: com.lihaoyi:scalatags_sjs0.6_2.11:0.5.4:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-js:scalajs-dom_sjs0.6_2.11:0.8.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-js:scalajs-library_2.11:0.6.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.5:jar" level="project" />
     <orderEntry type="library" name="SBT: org.webjars:d3js:3.5.12:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-js:scalajs-library_2.11:0.6.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.7:jar" level="project" />
   </component>
 </module>
