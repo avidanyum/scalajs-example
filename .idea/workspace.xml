@@ -25,9 +25,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98dc5d96-d7ec-4088-8ae2-1bd2078b1a95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="98dc5d96-d7ec-4088-8ae2-1bd2078b1a95" name="Default" comment="" />
     <ignored path="workbench-example-app.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -692,12 +690,12 @@
       <updated>1455870507941</updated>
       <workItem from="1455870511797" duration="5153000" />
       <workItem from="1455891903959" duration="124000" />
-      <workItem from="1455892300390" duration="486000" />
+      <workItem from="1455892300390" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5763000" />
+    <option name="totallyTimeSpent" value="5877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
