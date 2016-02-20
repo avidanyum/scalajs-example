@@ -1,5 +1,8 @@
 target/
 .cache
 .classpath
+.idea/
+.idea
 .project
 .settings/
+rename.sh
